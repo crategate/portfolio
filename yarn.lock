@@ -580,6 +580,11 @@ esprima@^2.6.0:
   resolved "https://registry.npmjs.org/esprima/-/esprima-2.7.3.tgz"
   integrity sha512-OarPfz0lFCiW4/AV2Oy1Rp9qu0iusTKqykwTspGCZtPxmF81JR4MmIebvF1F9+UOKth2ZubLQ4XGGaU+hSn99A==
 
+events@^1.0.1:
+  version "1.1.1"
+  resolved "https://registry.npmjs.org/events/-/events-1.1.1.tgz"
+  integrity sha512-kEcvvCBByWXGnZy6JUlgAp2gBIUjfCAV6P6TgT1/aaQKcmuAEC4OZTV1I4EWQLz2gxZw76atuVyvHhTxvi0Flw==
+
 fast-glob@^3.2.11:
   version "3.2.12"
   resolved "https://registry.npmjs.org/fast-glob/-/fast-glob-3.2.12.tgz"
@@ -849,6 +854,13 @@ mkdirp@~0.5.1:
   integrity sha512-FP+p8RB8OWpF3YZBCrP5gtADmtXApB5AMLn+vdyA+PyxCjrCs00mjyUozssO33cwDeT3wNGdLxJ5M//YqtHAJw==
   dependencies:
     minimist "^1.2.6"
+
+mouse-position@^2.1.0:
+  version "2.1.0"
+  resolved "https://registry.npmjs.org/mouse-position/-/mouse-position-2.1.0.tgz"
+  integrity sha512-Ra8/RFn9e9/D2v9syhF5bLo4yiWvqZzcC/5bHOvkixDAkvO3WhlWN2xQRHSirMoYk2bagIae2upXXwxTxzI3BQ==
+  dependencies:
+    events "^1.0.1"
 
 ms@2.1.2:
   version "2.1.2"

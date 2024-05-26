@@ -40,6 +40,9 @@ module.exports = {
         400: "#AFB5C0",
         500: "#DDDDDD",
       },
+      sky: {
+        400: "rgb(56, 189, 248)",
+      }
     },
     extend: {},
   },
